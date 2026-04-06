@@ -99,6 +99,7 @@ export const translations = {
       title: 'Nos réalisations',
       subtitle: 'Des projets concrets avec des résultats mesurables. Chaque client mérite une solution sur mesure.',
       resultLabel: 'Résultat',
+      readCase: "Lire l'étude de cas",
       seeAll: 'Voir tous les projets',
       items: [
         {
@@ -359,6 +360,7 @@ export const translations = {
       title: 'Our work',
       subtitle: 'Concrete projects with measurable results. Every client deserves a tailored solution.',
       resultLabel: 'Result',
+      readCase: 'Read the case study',
       seeAll: 'See all projects',
       items: [
         {
@@ -619,6 +621,7 @@ export const translations = {
       title: 'Nossas realizações',
       subtitle: 'Projetos concretos com resultados mensuráveis. Cada cliente merece uma solução sob medida.',
       resultLabel: 'Resultado',
+      readCase: 'Ler o estudo de caso',
       seeAll: 'Ver todos os projetos',
       items: [
         {

@@ -12,6 +12,8 @@ const tags = [
   ["Fiscalité immobilière", "Automatisation", "B2B", "Proptech"],
 ];
 
+const slugs = ["legalplace", "qlower"];
+
 export default function Realisations() {
   const { t } = useLanguage();
   const r = t.realisations;
@@ -58,7 +60,7 @@ export default function Realisations() {
                   <p className="text-white/60 text-sm leading-relaxed mb-5 max-w-2xl">
                     {project.description}
                   </p>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-5">
                     {tags[i].map((tag) => (
                       <span
                         key={tag}
@@ -68,6 +70,15 @@ export default function Realisations() {
                       </span>
                     ))}
                   </div>
+                  <a
+                    href={`/realisations/${slugs[i]}`}
+                    className="inline-flex items-center gap-1.5 text-[#c9a84c] text-sm font-semibold hover:gap-2.5 transition-all duration-200"
+                  >
+                    {r.readCase}
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </a>
                 </div>
                 <div className="md:text-right">
                   <div className="inline-flex flex-col items-start md:items-end">
