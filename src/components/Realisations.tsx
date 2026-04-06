@@ -7,6 +7,7 @@ const colors = [
   "from-blue-900/40 to-transparent",
   "from-amber-900/40 to-transparent",
   "from-purple-900/40 to-transparent",
+  "from-cyan-900/40 to-transparent",
 ];
 
 const tags = [
@@ -14,6 +15,7 @@ const tags = [
   ["n8n", "HubSpot", "Notion", "Gmail API"],
   ["GPT-4", "Airtable", "Slack", "Make"],
   ["n8n", "GPT-4", "No-Code", "Legaltech"],
+  ["Fiscalité immobilière", "Automatisation", "B2B", "Proptech"],
 ];
 
 export default function Realisations() {

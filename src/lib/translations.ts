@@ -133,6 +133,14 @@ export const translations = {
             "Génération automatique de 10+ documents comptables (bilans, liasses, journaux), interface de saisie partagée client/collab, et chatbot IA contextualisé sur les données financières réelles du dossier.",
           result: '4 semaines du brief au déploiement',
         },
+        {
+          title: 'Product-Market Fit & industrialisation fiscale — Qlower',
+          client: 'Qlower — Paris',
+          category: 'Produit & Automatisation',
+          description:
+            "Direction des équipes tech, design et data pour transformer une startup de fiscalité immobilière : création du segment B2B, automatisation de 90% du processus de déclaration fiscale (−94% de coût unitaire), et x40 sur la capacité de traitement par collaborateur.",
+          result: '1 600 € → 600 000 € de CA annuel',
+        },
       ],
     },
     testimonials: {
@@ -409,6 +417,14 @@ export const translations = {
             'Automated generation of 10+ accounting documents (balance sheets, tax filings, ledgers), a shared client/accountant data entry interface, and an AI chatbot contextualized on the client\'s real financial data.',
           result: '4 weeks from brief to production',
         },
+        {
+          title: 'Product-Market Fit & Tax Automation — Qlower',
+          client: 'Qlower — Paris',
+          category: 'Product & Automation',
+          description:
+            'Led tech, design and data teams to transform a real estate tax startup: created the B2B segment, automated 90% of the tax filing process (−94% unit cost), and achieved 40x processing capacity per team member.',
+          result: '€1,600 → €600,000 ARR',
+        },
       ],
     },
     testimonials: {
@@ -684,6 +700,14 @@ export const translations = {
           description:
             'Geração automática de 10+ documentos contábeis (balanços, declarações fiscais, livros-razão), interface de entrada de dados compartilhada entre cliente e contador, e chatbot de IA contextualizado nos dados financeiros reais do cliente.',
           result: '4 semanas do briefing ao deploy',
+        },
+        {
+          title: 'Product-Market Fit & Automação Fiscal — Qlower',
+          client: 'Qlower — Paris',
+          category: 'Produto & Automação',
+          description:
+            'Liderança das equipes de tech, design e dados para transformar uma startup de fiscalidade imobiliária: criação do segmento B2B, automação de 90% do processo de declaração fiscal (−94% no custo unitário) e capacidade de processamento 40x maior por colaborador.',
+          result: '€1.600 → €600.000 de faturamento anual',
         },
       ],
     },
