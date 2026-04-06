@@ -11,14 +11,15 @@ export async function POST(req: NextRequest) {
   }
 
   const { error } = await resend.emails.send({
-    from: "Tucupi Studio <hello@tucupi.agency>",
+    from: "Tucupi Studio <onboarding@resend.dev>",
     to: process.env.CONTACT_EMAIL!,
     replyTo: email,
-    subject: `Nouveau message de ${name}`,
+    subject: `Nouveau message de ${name} — tucupi.agency`,
     text: `Nom : ${name}\nEmail : ${email}\n\n${message}`,
   });
 
   if (error) {
+    console.error("Resend error:", error);
     return NextResponse.json({ error: "Échec de l'envoi" }, { status: 500 });
   }
 
