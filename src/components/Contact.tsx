@@ -19,6 +19,8 @@ const icons = [
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
   const { t } = useLanguage();
   const c = t.contact;
 
@@ -28,11 +30,22 @@ export default function Contact() {
     { ...c.details.availability },
   ];
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    console.log("Nouveau message de contact :", form);
-    setSubmitted(true);
-    setForm({ name: "", email: "", message: "" });
+    setLoading(true);
+    setError(false);
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    });
+    setLoading(false);
+    if (res.ok) {
+      setSubmitted(true);
+      setForm({ name: "", email: "", message: "" });
+    } else {
+      setError(true);
+    }
   }
 
   return (
@@ -131,10 +144,16 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full py-4 rounded-xl bg-[#c9a84c] text-[#0f2318] font-bold text-base hover:bg-[#dfc077] transition-all duration-200 shadow-lg shadow-[#c9a84c]/20"
+                  disabled={loading}
+                  className="w-full py-4 rounded-xl bg-[#c9a84c] text-[#0f2318] font-bold text-base hover:bg-[#dfc077] transition-all duration-200 shadow-lg shadow-[#c9a84c]/20 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {c.form.submit}
+                  {loading ? "..." : c.form.submit}
                 </button>
+                {error && (
+                  <p className="text-center text-red-400 text-xs">
+                    Une erreur est survenue, veuillez réessayer.
+                  </p>
+                )}
                 <p className="text-center text-white/40 text-xs">
                   {c.form.guarantee}
                 </p>
