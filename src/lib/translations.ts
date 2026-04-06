@@ -125,6 +125,14 @@ export const translations = {
             "Agent IA entraîné sur la FAQ et le catalogue produit. Répond à 70% des demandes support automatiquement, escalade les cas complexes à l'équipe.",
           result: '70% des tickets résolus automatiquement',
         },
+        {
+          title: 'Automatisation comptable & IA — LegalPlace',
+          client: 'LegalPlace / ComptaPlace — Paris',
+          category: 'Automatisation & IA',
+          description:
+            "Génération automatique de 10+ documents comptables (bilans, liasses, journaux), interface de saisie partagée client/collab, et chatbot IA contextualisé sur les données financières réelles du dossier.",
+          result: '4 semaines du brief au déploiement',
+        },
       ],
     },
     testimonials: {
@@ -393,6 +401,14 @@ export const translations = {
             'AI agent trained on FAQ and product catalog. Automatically handles 70% of support requests, escalates complex cases to the team.',
           result: '70% of tickets resolved automatically',
         },
+        {
+          title: 'Accounting Automation & AI — LegalPlace',
+          client: 'LegalPlace / ComptaPlace — Paris',
+          category: 'Automation & AI',
+          description:
+            'Automated generation of 10+ accounting documents (balance sheets, tax filings, ledgers), a shared client/accountant data entry interface, and an AI chatbot contextualized on the client\'s real financial data.',
+          result: '4 weeks from brief to production',
+        },
       ],
     },
     testimonials: {
@@ -660,6 +676,14 @@ export const translations = {
           description:
             'Agente de IA treinado na FAQ e catálogo de produtos. Responde automaticamente a 70% das solicitações de suporte, escalando casos complexos para a equipe.',
           result: '70% dos tickets resolvidos automaticamente',
+        },
+        {
+          title: 'Automação Contábil & IA — LegalPlace',
+          client: 'LegalPlace / ComptaPlace — Paris',
+          category: 'Automação & IA',
+          description:
+            'Geração automática de 10+ documentos contábeis (balanços, declarações fiscais, livros-razão), interface de entrada de dados compartilhada entre cliente e contador, e chatbot de IA contextualizado nos dados financeiros reais do cliente.',
+          result: '4 semanas do briefing ao deploy',
         },
       ],
     },

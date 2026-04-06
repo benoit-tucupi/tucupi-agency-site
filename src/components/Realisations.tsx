@@ -6,12 +6,14 @@ const colors = [
   "from-green-900/40 to-transparent",
   "from-blue-900/40 to-transparent",
   "from-amber-900/40 to-transparent",
+  "from-purple-900/40 to-transparent",
 ];
 
 const tags = [
   ["Webflow", "MemberStack", "Stripe", "Airtable"],
   ["n8n", "HubSpot", "Notion", "Gmail API"],
   ["GPT-4", "Airtable", "Slack", "Make"],
+  ["n8n", "GPT-4", "No-Code", "Legaltech"],
 ];
 
 export default function Realisations() {
