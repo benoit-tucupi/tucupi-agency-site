@@ -103,6 +103,14 @@ export const translations = {
       seeAll: 'Voir tous les projets',
       items: [
         {
+          title: 'Plateforme de veille intelligente — FOR Drug Consulting',
+          client: 'FOR Drug Consulting — Paris',
+          category: 'Automatisation & IA',
+          description:
+            "Automatisation complète de la surveillance de littérature scientifique PubMed pour un CRO en pharmacovigilance : collecte, classification IA, déduplication et rapports PDF conformes GxP — sans équipe tech dédiée.",
+          result: '−80% de temps de traitement par cycle de veille',
+        },
+        {
           title: 'Automatisation comptable & IA — LegalPlace',
           client: 'LegalPlace / ComptaPlace — Paris',
           category: 'Automatisation & IA',
@@ -364,6 +372,14 @@ export const translations = {
       seeAll: 'See all projects',
       items: [
         {
+          title: 'Intelligent Literature Monitoring Platform — FOR Drug Consulting',
+          client: 'FOR Drug Consulting — Paris',
+          category: 'Automation & AI',
+          description:
+            "Full automation of PubMed scientific literature monitoring for a pharmacovigilance CRO: collection, AI classification, deduplication and GxP-compliant PDF reports — without a dedicated tech team.",
+          result: '−80% processing time per monitoring cycle',
+        },
+        {
           title: 'Accounting Automation & AI — LegalPlace',
           client: 'LegalPlace / ComptaPlace — Paris',
           category: 'Automation & AI',
@@ -624,6 +640,14 @@ export const translations = {
       readCase: 'Ler o estudo de caso',
       seeAll: 'Ver todos os projetos',
       items: [
+        {
+          title: 'Plataforma de Monitoramento Inteligente — FOR Drug Consulting',
+          client: 'FOR Drug Consulting — Paris',
+          category: 'Automação & IA',
+          description:
+            "Automação completa do monitoramento de literatura científica PubMed para uma CRO de farmacovigilância: coleta, classificação por IA, deduplicação e relatórios PDF conformes com GxP — sem equipe técnica dedicada.",
+          result: '−80% no tempo de processamento por ciclo de monitoramento',
+        },
         {
           title: 'Automação Contábil & IA — LegalPlace',
           client: 'LegalPlace / ComptaPlace — Paris',

@@ -3,16 +3,18 @@
 import { useLanguage } from "@/lib/LanguageContext";
 
 const colors = [
+  "from-orange-900/40 to-transparent",
   "from-purple-900/40 to-transparent",
   "from-cyan-900/40 to-transparent",
 ];
 
 const tags = [
+  ["Bubble.io", "n8n", "OpenAI", "Pharmacovigilance"],
   ["n8n", "GPT-4", "No-Code", "Legaltech"],
   ["Fiscalité immobilière", "Automatisation", "B2B", "Proptech"],
 ];
 
-const slugs = ["legalplace", "qlower"];
+const slugs = ["fordrug", "legalplace", "qlower"];
 
 export default function Realisations() {
   const { t } = useLanguage();

@@ -15,6 +15,77 @@ export type CaseStudy = {
 
 export const caseStudies: Record<Locale, Record<string, CaseStudy>> = {
   fr: {
+    fordrug: {
+      slug: "fordrug",
+      client: "FOR Drug Consulting",
+      category: "Automatisation & IA · Pharmacovigilance",
+      headline: "Passer d'Excel à une plateforme de veille intelligente — en contexte GxP",
+      intro:
+        "FOR Drug Consulting, CRO spécialisé en pharmacovigilance, gérait sa surveillance de littérature scientifique à la main, produit par produit, chaque semaine. L'enjeu : automatiser un processus critique, conforme aux exigences réglementaires, sans sacrifier la traçabilité ni la qualité des données.",
+      metrics: [
+        { value: "−80%", label: "de temps de traitement par cycle de veille" },
+        { value: "1 300+", label: "articles traités automatiquement par cycle" },
+        { value: "100%", label: "traçable — conforme aux exigences GxP / PV" },
+      ],
+      sections: [
+        {
+          title: "Contexte & problème",
+          body: [
+            "Chaque semaine, les chargés de pharmacovigilance de FDC devaient extraire manuellement les résultats des alertes PubMed, les copier-coller dans Excel, identifier le pays du premier auteur, évaluer la pertinence de chaque article, et produire un rapport de synthèse — produit par produit, client par client.",
+            "Un cycle complet représentait plusieurs heures de travail répétitif par produit, avec des risques d'erreurs humaines sur des données à enjeux réglementaires directs.",
+            "Le vrai défi : automatiser un processus métier exigeant, sur un périmètre multi-clients et multi-produits, dans un environnement où la traçabilité, l'auditabilité et la conformité GxP ne sont pas négociables.",
+          ],
+        },
+        {
+          title: "Ce qui a été construit",
+          body: [
+            "Une plateforme complète — Y-Sentry — reposant sur trois couches complémentaires : collecte & classification automatisée, orchestration & gestion de l'état, reporting conforme & restitution automatisée.",
+            "Y-Sentry repose intégralement sur des outils no-code et low-code — Bubble.io pour l'interface et la logique métier, n8n pour les workflows d'automatisation, OpenAI pour la classification. Zéro serveur custom, zéro backend maison.",
+          ],
+        },
+        {
+          title: "Pourquoi c'est possible sans équipe tech dédiée",
+          body: [
+            "Ce qui a rendu ce projet possible en quelques semaines, c'est une architecture pensée pour le métier d'abord : chaque brique technique répond à un besoin opérationnel précis — pas l'inverse.",
+            "Et parce que les outils sont visuels et maintenables, FDC reste autonome pour faire évoluer la plateforme sans dépendre d'un prestataire technique à chaque évolution.",
+          ],
+        },
+      ],
+      deliverables: [
+        {
+          group: "Collecte & classification automatisée",
+          items: [
+            "Interrogation automatique des APIs PubMed (esearch, efetch)",
+            "Parsing XML et extraction des métadonnées (auteurs, affiliations, pays)",
+            "Classification IA (OpenAI) : cas de PV, correspondance pays de commercialisation",
+            "Déduplication automatique des articles sur critère PMID",
+          ],
+        },
+        {
+          group: "Orchestration & gestion de l'état",
+          items: [
+            "Architecture hybride Bubble.io + n8n (microservices de traitement)",
+            "Pagination par lots de 100 articles pour absorber les grands volumes",
+            "Suivi d'avancement par veille, par produit, par client",
+            "Gestion multi-clients et multi-produits depuis une interface unique",
+          ],
+        },
+        {
+          group: "Reporting conforme & restitution automatisée",
+          items: [
+            "Génération de rapports PDF structurés via template Mustache (PDF.co)",
+            "Email de synthèse hebdomadaire avec KPIs par produit",
+            "Priorisation des articles : cas PV + pays → cas PV seul → pays seul → hors périmètre",
+            "Documentation utilisateur alignée sur le mode opératoire GxP (MOD OP 038)",
+          ],
+        },
+      ],
+      quote: {
+        text: "Ce qui mobilisait plusieurs heures de travail manuel par cycle — extraction, copier-coller, analyse pays, rédaction de synthèse — se déclenche aujourd'hui en un clic, de façon traçable et conforme.",
+        author: "Synthèse du projet · FOR Drug Consulting · Y-Sentry",
+      },
+      tags: ["Automatisation", "No-code", "IA générative", "Pharmacovigilance", "Conformité GxP", "PubMed", "Reporting automatisé"],
+    },
     legalplace: {
       slug: "legalplace",
       client: "LegalPlace / ComptaPlace",
@@ -115,6 +186,77 @@ export const caseStudies: Record<Locale, Record<string, CaseStudy>> = {
   },
 
   en: {
+    fordrug: {
+      slug: "fordrug",
+      client: "FOR Drug Consulting",
+      category: "Automation & AI · Pharmacovigilance",
+      headline: "From Excel to an intelligent monitoring platform — in a GxP environment",
+      intro:
+        "FOR Drug Consulting, a CRO specializing in pharmacovigilance, managed its scientific literature monitoring manually, product by product, every week. The challenge: automate a critical process compliant with regulatory requirements, without sacrificing traceability or data quality.",
+      metrics: [
+        { value: "−80%", label: "processing time per monitoring cycle" },
+        { value: "1,300+", label: "articles processed automatically per cycle" },
+        { value: "100%", label: "traceable — compliant with GxP / PV requirements" },
+      ],
+      sections: [
+        {
+          title: "Context & problem",
+          body: [
+            "Every week, FDC's pharmacovigilance officers had to manually extract PubMed alert results, copy-paste them into Excel, identify the first author's country, assess each article's relevance, and produce a summary report — product by product, client by client.",
+            "A full cycle represented several hours of repetitive work per product, with risks of human errors on data with direct regulatory implications.",
+            "The real challenge: automate a demanding business process, across a multi-client and multi-product scope, in an environment where traceability, auditability and GxP compliance are non-negotiable.",
+          ],
+        },
+        {
+          title: "What was built",
+          body: [
+            "A complete platform — Y-Sentry — built on three complementary layers: automated collection & classification, orchestration & state management, compliant reporting & automated output.",
+            "Y-Sentry relies entirely on no-code and low-code tools — Bubble.io for the interface and business logic, n8n for automation workflows, OpenAI for classification. Zero custom servers, zero in-house backend.",
+          ],
+        },
+        {
+          title: "Why it's possible without a dedicated tech team",
+          body: [
+            "What made this project possible in a matter of weeks is an architecture designed around the business first: each technical building block answers a precise operational need — not the other way around.",
+            "And because the tools are visual and maintainable, FDC remains autonomous to evolve the platform without depending on a technical vendor for every update.",
+          ],
+        },
+      ],
+      deliverables: [
+        {
+          group: "Automated collection & classification",
+          items: [
+            "Automatic querying of PubMed APIs (esearch, efetch)",
+            "XML parsing and metadata extraction (authors, affiliations, countries)",
+            "AI classification (OpenAI): PV cases, marketing country matching",
+            "Automatic deduplication of articles based on PMID",
+          ],
+        },
+        {
+          group: "Orchestration & state management",
+          items: [
+            "Hybrid architecture: Bubble.io (orchestration) + n8n (processing microservices)",
+            "Batch pagination of 100 articles to handle large volumes",
+            "Progress tracking per cycle, per product, per client",
+            "Multi-client and multi-product management from a single interface",
+          ],
+        },
+        {
+          group: "Compliant reporting & automated output",
+          items: [
+            "Structured PDF report generation via Mustache template (PDF.co)",
+            "Weekly summary email with KPIs per product",
+            "Article prioritization: PV case + country → PV case only → country only → out of scope",
+            "User documentation aligned with GxP operating procedure (MOD OP 038)",
+          ],
+        },
+      ],
+      quote: {
+        text: "What used to take several hours of manual work per cycle — extraction, copy-pasting, country analysis, summary writing — now triggers with one click, in a traceable and compliant way.",
+        author: "Project summary · FOR Drug Consulting · Y-Sentry",
+      },
+      tags: ["Automation", "No-code", "Generative AI", "Pharmacovigilance", "GxP compliance", "PubMed", "Automated reporting"],
+    },
     legalplace: {
       slug: "legalplace",
       client: "LegalPlace / ComptaPlace",
@@ -215,6 +357,77 @@ export const caseStudies: Record<Locale, Record<string, CaseStudy>> = {
   },
 
   "pt-BR": {
+    fordrug: {
+      slug: "fordrug",
+      client: "FOR Drug Consulting",
+      category: "Automação & IA · Farmacovigilância",
+      headline: "Do Excel a uma plataforma de monitoramento inteligente — em ambiente GxP",
+      intro:
+        "A FOR Drug Consulting, uma CRO especializada em farmacovigilância, gerenciava o monitoramento de literatura científica manualmente, produto por produto, toda semana. O desafio: automatizar um processo crítico conforme as exigências regulatórias, sem sacrificar a rastreabilidade nem a qualidade dos dados.",
+      metrics: [
+        { value: "−80%", label: "no tempo de processamento por ciclo de monitoramento" },
+        { value: "1.300+", label: "artigos processados automaticamente por ciclo" },
+        { value: "100%", label: "rastreável — conforme exigências GxP / PV" },
+      ],
+      sections: [
+        {
+          title: "Contexto & problema",
+          body: [
+            "Toda semana, os responsáveis de farmacovigilância da FDC precisavam extrair manualmente os resultados dos alertas PubMed, copiar e colar no Excel, identificar o país do primeiro autor, avaliar a relevância de cada artigo e produzir um relatório de síntese — produto por produto, cliente por cliente.",
+            "Um ciclo completo representava várias horas de trabalho repetitivo por produto, com riscos de erros humanos em dados com implicações regulatórias diretas.",
+            "O verdadeiro desafio: automatizar um processo de negócio exigente, em um escopo multi-cliente e multi-produto, em um ambiente onde rastreabilidade, auditabilidade e conformidade GxP não são negociáveis.",
+          ],
+        },
+        {
+          title: "O que foi construído",
+          body: [
+            "Uma plataforma completa — Y-Sentry — baseada em três camadas complementares: coleta & classificação automatizada, orquestração & gerenciamento de estado, relatórios conformes & restituição automatizada.",
+            "Y-Sentry se baseia inteiramente em ferramentas no-code e low-code — Bubble.io para interface e lógica de negócio, n8n para workflows de automação, OpenAI para classificação. Zero servidores customizados, zero backend próprio.",
+          ],
+        },
+        {
+          title: "Por que é possível sem equipe técnica dedicada",
+          body: [
+            "O que tornou este projeto possível em poucas semanas é uma arquitetura pensada para o negócio primeiro: cada bloco técnico responde a uma necessidade operacional precisa — não o contrário.",
+            "E como as ferramentas são visuais e manuteníveis, a FDC permanece autônoma para evoluir a plataforma sem depender de um fornecedor técnico a cada atualização.",
+          ],
+        },
+      ],
+      deliverables: [
+        {
+          group: "Coleta & classificação automatizada",
+          items: [
+            "Consulta automática às APIs PubMed (esearch, efetch)",
+            "Parsing XML e extração de metadados (autores, afiliações, países)",
+            "Classificação por IA (OpenAI): casos de PV, correspondência de países de comercialização",
+            "Deduplicação automática de artigos com base no PMID",
+          ],
+        },
+        {
+          group: "Orquestração & gerenciamento de estado",
+          items: [
+            "Arquitetura híbrida Bubble.io + n8n (microsserviços de processamento)",
+            "Paginação em lotes de 100 artigos para absorver grandes volumes",
+            "Acompanhamento de progresso por ciclo, por produto, por cliente",
+            "Gestão multi-cliente e multi-produto a partir de uma única interface",
+          ],
+        },
+        {
+          group: "Relatórios conformes & restituição automatizada",
+          items: [
+            "Geração de relatórios PDF estruturados via template Mustache (PDF.co)",
+            "E-mail de síntese semanal com KPIs por produto",
+            "Priorização de artigos: caso PV + país → caso PV só → país só → fora do escopo",
+            "Documentação do usuário alinhada ao procedimento operacional GxP (MOD OP 038)",
+          ],
+        },
+      ],
+      quote: {
+        text: "O que demandava várias horas de trabalho manual por ciclo — extração, copiar e colar, análise de país, redação de síntese — hoje se aciona com um clique, de forma rastreável e conforme.",
+        author: "Resumo do projeto · FOR Drug Consulting · Y-Sentry",
+      },
+      tags: ["Automação", "No-code", "IA generativa", "Farmacovigilância", "Conformidade GxP", "PubMed", "Relatórios automatizados"],
+    },
     legalplace: {
       slug: "legalplace",
       client: "LegalPlace / ComptaPlace",
