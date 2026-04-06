@@ -1,20 +1,6 @@
-const footerLinks = {
-  Services: [
-    { label: "MVP No-Code", href: "#services" },
-    { label: "Automatisations n8n", href: "#services" },
-    { label: "Intégrations GPT", href: "#services" },
-  ],
-  Produits: [
-    { label: "OpenImmo Pro", href: "#produits" },
-    { label: "My Campaign Manager", href: "#produits" },
-    { label: "Personal Agent", href: "#produits" },
-  ],
-  Ressources: [
-    { label: "Blog", href: "#blog" },
-    { label: "Réalisations", href: "#realisations" },
-    { label: "À propos", href: "#apropos" },
-  ],
-};
+"use client";
+
+import { useLanguage } from "@/lib/LanguageContext";
 
 const socials = [
   {
@@ -38,6 +24,9 @@ const socials = [
 ];
 
 export default function Footer() {
+  const { t } = useLanguage();
+  const f = t.footer;
+
   return (
     <footer className="border-t border-white/10 bg-[#0d1f15]">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -49,8 +38,7 @@ export default function Footer() {
               <span className="text-2xl font-light text-white">Studio</span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed max-w-xs">
-              Agence No-Code & IA basée à Issy-les-Moulineaux. Nous transformons
-              vos idées en produits digitaux performants.
+              {f.description}
             </p>
             <div className="flex items-center gap-3 mt-6">
               {socials.map((social) => (
@@ -67,13 +55,13 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          {Object.entries(footerLinks).map(([section, links]) => (
-            <div key={section}>
+          {f.sections.map((section) => (
+            <div key={section.label}>
               <h4 className="font-semibold text-sm mb-4 text-white">
-                {section}
+                {section.label}
               </h4>
               <ul className="space-y-2.5">
-                {links.map((link) => (
+                {section.links.map((link) => (
                   <li key={link.label}>
                     <a
                       href={link.href}
@@ -90,21 +78,19 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-white/40 text-sm">
-            © 2025 Tucupi Studio. Tous droits réservés.
-          </p>
+          <p className="text-white/40 text-sm">{f.copyright}</p>
           <div className="flex items-center gap-6">
             <a
               href="#"
               className="text-white/40 text-sm hover:text-white/70 transition-colors duration-200"
             >
-              Mentions légales
+              {f.legal}
             </a>
             <a
               href="#"
               className="text-white/40 text-sm hover:text-white/70 transition-colors duration-200"
             >
-              Politique de confidentialité
+              {f.privacy}
             </a>
           </div>
         </div>

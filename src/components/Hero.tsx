@@ -1,4 +1,11 @@
+"use client";
+
+import { useLanguage } from "@/lib/LanguageContext";
+
 export default function Hero() {
+  const { t } = useLanguage();
+  const h = t.hero;
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background gradient orbs */}
@@ -18,19 +25,18 @@ export default function Hero() {
       <div className="relative max-w-5xl mx-auto px-6 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#c9a84c]/40 text-[#c9a84c] text-sm font-medium mb-8">
           <span className="w-2 h-2 rounded-full bg-[#c9a84c] animate-pulse" />
-          No-Code · Automatisation · Intelligence Artificielle
+          {h.badge}
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-          Transformez vos idées en{" "}
-          <span className="text-[#c9a84c]">produits digitaux</span>{" "}
+          {h.h1a}{" "}
+          <span className="text-[#c9a84c]">{h.h1b}</span>{" "}
           <br className="hidden md:block" />
-          sans coder
+          {h.h1c}
         </h1>
 
         <p className="text-xl md:text-2xl text-white/70 max-w-3xl mx-auto mb-10 font-light leading-relaxed">
-          Tucupi Studio conçoit vos MVPs, automatise vos processus métier et
-          intègre l&apos;IA dans vos outils — livré en semaines, pas en mois.
+          {h.subtitle}
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -38,7 +44,7 @@ export default function Hero() {
             href="#contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#c9a84c] text-[#0f2318] font-bold text-lg hover:bg-[#dfc077] transition-all duration-200 shadow-lg shadow-[#c9a84c]/20"
           >
-            Parlons de votre projet
+            {h.cta1}
             <svg
               className="w-5 h-5"
               fill="none"
@@ -57,17 +63,13 @@ export default function Hero() {
             href="#services"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/30 text-white font-medium text-lg hover:border-[#c9a84c]/60 hover:text-[#c9a84c] transition-all duration-200"
           >
-            Découvrir nos services
+            {h.cta2}
           </a>
         </div>
 
         {/* Stats */}
         <div className="mt-20 grid grid-cols-3 gap-8 max-w-xl mx-auto">
-          {[
-            { value: "20+", label: "Projets livrés" },
-            { value: "3 sem.", label: "Délai moyen" },
-            { value: "100%", label: "Clients satisfaits" },
-          ].map((stat) => (
+          {h.stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl font-bold text-[#c9a84c]">
                 {stat.value}
@@ -80,7 +82,7 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40 text-xs">
-        <span>Défiler</span>
+        <span>{h.scroll}</span>
         <div className="w-0.5 h-8 bg-gradient-to-b from-white/40 to-transparent" />
       </div>
     </section>
