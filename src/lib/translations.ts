@@ -102,30 +102,6 @@ export const translations = {
       seeAll: 'Voir tous les projets',
       items: [
         {
-          title: 'Plateforme de réservation Yoga & Bien-être',
-          client: 'Studio Lotus — Paris 11e',
-          category: 'MVP No-Code',
-          description:
-            "Création d'une plateforme complète de réservation de cours de yoga avec gestion des abonnements, paiements Stripe et espace membres. Livrée en 2 semaines.",
-          result: '+340% de réservations en ligne',
-        },
-        {
-          title: 'Automatisation CRM & Facturation',
-          client: 'Cabinet Conseil RH — Lyon',
-          category: 'Automatisation n8n',
-          description:
-            "Workflow n8n qui synchronise HubSpot, génère les devis automatiquement, envoie les relances clients et alimente un tableau de bord Notion en temps réel.",
-          result: '8h/semaine économisées',
-        },
-        {
-          title: 'Assistant IA pour Service Client',
-          client: 'E-commerce Mode — Bordeaux',
-          category: 'Intégration GPT',
-          description:
-            "Agent IA entraîné sur la FAQ et le catalogue produit. Répond à 70% des demandes support automatiquement, escalade les cas complexes à l'équipe.",
-          result: '70% des tickets résolus automatiquement',
-        },
-        {
           title: 'Automatisation comptable & IA — LegalPlace',
           client: 'LegalPlace / ComptaPlace — Paris',
           category: 'Automatisation & IA',
@@ -386,30 +362,6 @@ export const translations = {
       seeAll: 'See all projects',
       items: [
         {
-          title: 'Yoga & Wellness Booking Platform',
-          client: 'Studio Lotus — Paris 11th',
-          category: 'No-Code MVP',
-          description:
-            'Built a complete yoga class booking platform with subscription management, Stripe payments and a members area. Delivered in 2 weeks.',
-          result: '+340% online bookings',
-        },
-        {
-          title: 'CRM & Invoicing Automation',
-          client: 'HR Consulting Firm — Lyon',
-          category: 'n8n Automation',
-          description:
-            'n8n workflow that syncs HubSpot, automatically generates quotes, sends client follow-ups and populates a real-time Notion dashboard.',
-          result: '8 hours/week saved',
-        },
-        {
-          title: 'AI Customer Support Assistant',
-          client: 'Fashion E-commerce — Bordeaux',
-          category: 'GPT Integration',
-          description:
-            'AI agent trained on FAQ and product catalog. Automatically handles 70% of support requests, escalates complex cases to the team.',
-          result: '70% of tickets resolved automatically',
-        },
-        {
           title: 'Accounting Automation & AI — LegalPlace',
           client: 'LegalPlace / ComptaPlace — Paris',
           category: 'Automation & AI',
@@ -669,30 +621,6 @@ export const translations = {
       resultLabel: 'Resultado',
       seeAll: 'Ver todos os projetos',
       items: [
-        {
-          title: 'Plataforma de Reservas Yoga & Bem-estar',
-          client: 'Studio Lotus — Paris 11º',
-          category: 'MVP No-Code',
-          description:
-            'Criação de uma plataforma completa de reservas de aulas de yoga com gestão de assinaturas, pagamentos Stripe e área de membros. Entregue em 2 semanas.',
-          result: '+340% de reservas online',
-        },
-        {
-          title: 'Automação CRM & Faturamento',
-          client: 'Consultoria RH — Lyon',
-          category: 'Automação n8n',
-          description:
-            'Workflow n8n que sincroniza o HubSpot, gera propostas automaticamente, envia lembretes para clientes e alimenta um dashboard no Notion em tempo real.',
-          result: '8h/semana economizadas',
-        },
-        {
-          title: 'Assistente de IA para Atendimento ao Cliente',
-          client: 'E-commerce de Moda — Bordeaux',
-          category: 'Integração GPT',
-          description:
-            'Agente de IA treinado na FAQ e catálogo de produtos. Responde automaticamente a 70% das solicitações de suporte, escalando casos complexos para a equipe.',
-          result: '70% dos tickets resolvidos automaticamente',
-        },
         {
           title: 'Automação Contábil & IA — LegalPlace',
           client: 'LegalPlace / ComptaPlace — Paris',
