@@ -31,30 +31,45 @@ export const translations = {
     },
     services: {
       eyebrow: 'Ce que nous faisons',
-      title: 'Nos services',
+      title: 'Trois défis, trois réponses',
       subtitle:
-        'Trois expertises complémentaires pour accélérer votre transformation digitale, sans écrire une ligne de code.',
+        "Que vous souhaitiez intégrer l'IA, créer un outil interne ou supprimer vos tâches manuelles, nous livrons une solution concrète — en semaines, pas en mois.",
       items: [
         {
-          title: 'No-Code MVP',
-          subtitle: "De l'idée au produit en 3 semaines",
+          title: "Intégrer l'IA dans vos processus",
+          subtitle: 'Vos équipes augmentées, pas remplacées',
           description:
-            "Nous construisons votre MVP avec les meilleurs outils No-Code (Webflow, Bubble, Glide, Notion). Validez votre marché rapidement sans investissement technique massif.",
-          features: ['Webflow / Bubble', 'Base de données Airtable', 'Paiements Stripe', 'Déploiement inclus'],
+            "Vos collaborateurs passent trop de temps sur des tâches à faible valeur ajoutée ? Nous identifions les points de friction et déployons des solutions IA concrètes — analyse de documents, assistants métier, aide à la décision — directement dans vos outils existants.",
+          features: [
+            'Analyse & traitement de documents',
+            'Assistant IA métier sur mesure',
+            'Aide à la décision automatisée',
+            'Intégration à vos outils actuels',
+          ],
         },
         {
-          title: 'Automatisations n8n',
-          subtitle: 'Éliminez les tâches répétitives',
+          title: 'Créer votre application métier',
+          subtitle: 'Livrée en semaines, pas en mois',
           description:
-            "Concevez des workflows intelligents avec n8n, Make ou Zapier. Synchronisez vos outils, automatisez votre CRM, vos emails et vos rapports.",
-          features: ['n8n self-hosted', 'Make / Zapier', 'Webhooks & API', 'Monitoring 24/7'],
+            "Vous avez besoin d'un outil interne, d'un portail client ou d'une plateforme métier — mais pas d'une facture à six chiffres. Nous concevons et livrons votre application sur mesure, sans équipe de développeurs.",
+          features: [
+            'Portails & interfaces métier',
+            'Applications web & mobile',
+            'Espaces clients & partenaires',
+            'Du brief au déploiement en < 4 sem.',
+          ],
         },
         {
-          title: 'Intégrations GPT & Airtable',
-          subtitle: "L'IA au cœur de vos process",
+          title: 'Automatiser vos processus',
+          subtitle: 'Moins de saisie, plus de valeur',
           description:
-            "Intégrez GPT-4, Claude ou Mistral directement dans vos workflows Airtable. Génération de contenu, analyse de données, assistants IA sur mesure.",
-          features: ['GPT-4 / Claude API', 'Airtable + IA', 'Chatbots custom', 'RAG & bases de connaissances'],
+            "Synchronisation de données entre outils, relances automatiques, génération de rapports, onboarding clients... Nous cartographions vos flux et automatisons les tâches répétitives pour libérer vos équipes.",
+          features: [
+            'Synchronisation de données & outils',
+            'Relances & notifications automatiques',
+            'Génération de rapports & tableaux de bord',
+            'Intégrations sur mesure entre vos logiciels',
+          ],
         },
       ],
     },
@@ -308,30 +323,45 @@ export const translations = {
     },
     services: {
       eyebrow: 'What we do',
-      title: 'Our services',
+      title: 'Three challenges, three answers',
       subtitle:
-        'Three complementary areas of expertise to accelerate your digital transformation — no code required.',
+        'Whether you want to bring AI into your operations, build an internal tool, or eliminate manual work — we deliver a concrete solution in weeks, not months.',
       items: [
         {
-          title: 'No-Code MVP',
-          subtitle: 'From idea to product in 3 weeks',
+          title: 'Integrate AI into your processes',
+          subtitle: 'Your teams augmented, not replaced',
           description:
-            'We build your MVP using the best No-Code tools (Webflow, Bubble, Glide, Notion). Validate your market quickly without a massive technical investment.',
-          features: ['Webflow / Bubble', 'Airtable database', 'Stripe payments', 'Deployment included'],
+            'Are your people spending too much time on low-value tasks? We identify the friction points and deploy practical AI solutions — document analysis, business assistants, decision support — directly into your existing tools.',
+          features: [
+            'Document analysis & processing',
+            'Custom business AI assistant',
+            'Automated decision support',
+            'Plugs into your existing tools',
+          ],
         },
         {
-          title: 'n8n Automations',
-          subtitle: 'Eliminate repetitive tasks',
+          title: 'Build your business application',
+          subtitle: 'Delivered in weeks, not months',
           description:
-            'Design intelligent workflows with n8n, Make or Zapier. Sync your tools, automate your CRM, emails and reports.',
-          features: ['Self-hosted n8n', 'Make / Zapier', 'Webhooks & API', '24/7 Monitoring'],
+            "You need an internal tool, a client portal or a business platform — but not a six-figure invoice. We design and deliver your custom application without a team of developers.",
+          features: [
+            'Business portals & interfaces',
+            'Web & mobile applications',
+            'Client & partner spaces',
+            'Brief to deployment in < 4 wks',
+          ],
         },
         {
-          title: 'GPT & Airtable Integrations',
-          subtitle: 'AI at the core of your processes',
+          title: 'Automate your processes',
+          subtitle: 'Less manual work, more value',
           description:
-            'Integrate GPT-4, Claude or Mistral directly into your Airtable workflows. Content generation, data analysis, custom AI assistants.',
-          features: ['GPT-4 / Claude API', 'Airtable + AI', 'Custom chatbots', 'RAG & knowledge bases'],
+            'Data sync between tools, automated follow-ups, report generation, client onboarding... We map your workflows and automate the repetitive tasks so your teams can focus on what matters.',
+          features: [
+            'Data & tool synchronization',
+            'Automated reminders & notifications',
+            'Report & dashboard generation',
+            'Custom integrations between your apps',
+          ],
         },
       ],
     },
@@ -585,30 +615,45 @@ export const translations = {
     },
     services: {
       eyebrow: 'O que fazemos',
-      title: 'Nossos serviços',
+      title: 'Três desafios, três respostas',
       subtitle:
-        'Três expertises complementares para acelerar sua transformação digital, sem escrever uma linha de código.',
+        'Seja para integrar IA, criar uma ferramenta interna ou eliminar tarefas manuais — entregamos uma solução concreta em semanas, não meses.',
       items: [
         {
-          title: 'MVP No-Code',
-          subtitle: 'Da ideia ao produto em 3 semanas',
+          title: 'Integrar IA nos seus processos',
+          subtitle: 'Suas equipes aumentadas, não substituídas',
           description:
-            'Construímos seu MVP com as melhores ferramentas No-Code (Webflow, Bubble, Glide, Notion). Valide seu mercado rapidamente sem investimento técnico massivo.',
-          features: ['Webflow / Bubble', 'Base de dados Airtable', 'Pagamentos Stripe', 'Deploy incluído'],
+            'Seus colaboradores perdem tempo em tarefas de baixo valor? Identificamos os pontos de atrito e implementamos soluções de IA concretas — análise de documentos, assistentes de negócio, apoio à decisão — diretamente nas suas ferramentas existentes.',
+          features: [
+            'Análise & processamento de documentos',
+            'Assistente de IA sob medida',
+            'Apoio automatizado à decisão',
+            'Integração nas suas ferramentas atuais',
+          ],
         },
         {
-          title: 'Automações n8n',
-          subtitle: 'Elimine tarefas repetitivas',
+          title: 'Criar sua aplicação de negócio',
+          subtitle: 'Entregue em semanas, não meses',
           description:
-            'Crie workflows inteligentes com n8n, Make ou Zapier. Sincronize suas ferramentas, automatize seu CRM, e-mails e relatórios.',
-          features: ['n8n self-hosted', 'Make / Zapier', 'Webhooks & API', 'Monitoramento 24/7'],
+            'Você precisa de uma ferramenta interna, um portal para clientes ou uma plataforma de negócio — mas não de uma fatura de seis dígitos. Projetamos e entregamos sua aplicação sob medida, sem uma equipe de desenvolvedores.',
+          features: [
+            'Portais & interfaces de negócio',
+            'Aplicações web & mobile',
+            'Espaços para clientes & parceiros',
+            'Do briefing ao deploy em < 4 sem.',
+          ],
         },
         {
-          title: 'Integrações GPT & Airtable',
-          subtitle: 'IA no centro dos seus processos',
+          title: 'Automatizar seus processos',
+          subtitle: 'Menos trabalho manual, mais valor',
           description:
-            'Integre GPT-4, Claude ou Mistral diretamente nos seus workflows do Airtable. Geração de conteúdo, análise de dados, assistentes de IA sob medida.',
-          features: ['GPT-4 / Claude API', 'Airtable + IA', 'Chatbots customizados', 'RAG & bases de conhecimento'],
+            'Sincronização de dados entre ferramentas, follow-ups automáticos, geração de relatórios, onboarding de clientes... Mapeamos seus fluxos e automatizamos as tarefas repetitivas para liberar suas equipes.',
+          features: [
+            'Sincronização de dados & ferramentas',
+            'Lembretes & notificações automáticas',
+            'Geração de relatórios & dashboards',
+            'Integrações sob medida entre seus sistemas',
+          ],
         },
       ],
     },
