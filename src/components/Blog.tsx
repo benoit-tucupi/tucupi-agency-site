@@ -2,12 +2,14 @@
 
 import { useLanguage } from "@/lib/LanguageContext";
 
-const gradients = ["from-green-800/30", "from-blue-800/30", "from-amber-800/30"];
+const gradients = ["from-emerald-800/30", "from-blue-800/30", "from-amber-800/30"];
 const categoryIcons: Record<string, string> = {
   "No-Code": "⚡",
   Automatisation: "🔄",
   Automation: "🔄",
   Automação: "🔄",
+  IA: "🤖",
+  AI: "🤖",
   "IA & GPT": "🤖",
   "AI & GPT": "🤖",
 };
@@ -69,7 +71,7 @@ export default function Blog() {
                 <div className="flex items-center justify-between">
                   <span className="text-white/40 text-xs">{article.date}</span>
                   <a
-                    href="#"
+                    href={article.slug ? `/blog/${article.slug}` : "#"}
                     className="inline-flex items-center gap-1.5 text-[#c9a84c] text-sm font-medium hover:gap-2.5 transition-all duration-200"
                   >
                     {b.read}

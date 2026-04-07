@@ -200,34 +200,37 @@ export const translations = {
     blog: {
       eyebrow: 'Blog',
       title: 'Ressources & insights',
-      subtitle: "Nos retours d'expérience, tutoriels et réflexions sur le No-Code et l'IA en entreprise.",
+      subtitle: "Nos retours d'expérience et réflexions sur l'IA, l'automatisation et le No-Code en entreprise.",
       readTimeSuffix: 'de lecture',
       read: 'Lire',
       seeAll: 'Tous les articles',
       items: [
         {
-          title: "No-Code vs Code : quand choisir l'un ou l'autre pour votre MVP ?",
+          slug: 'integrer-ia-entreprise',
+          title: "Comment intégrer l'IA dans votre entreprise : le guide concret pour les dirigeants",
           excerpt:
-            "Vous avez une idée de produit et vous vous demandez si le No-Code peut vraiment suffire. On démêle les critères de choix pour ne pas se tromper dès le départ.",
-          category: 'No-Code',
-          date: '28 mars 2025',
-          readTime: '6 min',
-        },
-        {
-          title: 'n8n vs Make vs Zapier : le comparatif honnête pour les PME',
-          excerpt:
-            "Trois outils d'automatisation, trois philosophies différentes. Après avoir utilisé les trois sur des projets clients réels, voici notre verdict sans langue de bois.",
-          category: 'Automatisation',
-          date: '15 mars 2025',
+            "L'IA n'est plus réservée aux grands groupes. Mais par où commencer, concrètement, quand on dirige une PME ? Ce guide pratique vous donne une méthode claire — sans jargon, sans investissement démesuré.",
+          category: 'IA',
+          date: '1 avril 2025',
           readTime: '8 min',
         },
         {
-          title: "Comment intégrer GPT-4 dans votre Airtable en moins d'une heure",
+          slug: 'automatisation-3-cas-concrets',
+          title: "Automatisation : 3 cas concrets qui ont libéré des dizaines d'heures par semaine",
           excerpt:
-            "Tutoriel pas à pas pour connecter l'API OpenAI à votre base Airtable et automatiser la génération de contenu, l'analyse de texte et la catégorisation.",
-          category: 'IA & GPT',
-          date: '5 mars 2025',
-          readTime: '10 min',
+            "Un cabinet comptable, une agence commerciale, une PME industrielle. Trois problèmes, trois solutions, un même résultat : des heures récupérées et des équipes qui travaillent enfin sur ce qui compte.",
+          category: 'Automatisation',
+          date: '15 mars 2025',
+          readTime: '7 min',
+        },
+        {
+          slug: 'nocode-outils-pme',
+          title: "No-code : comment les PME créent leurs outils métier sans équipe tech ni budget colossal",
+          excerpt:
+            "Ce qui coûtait 80 000 € il y a cinq ans en coûte aujourd'hui 5 000 à 10 000. Le no-code a changé les règles du jeu pour les PME — voici comment en profiter.",
+          category: 'No-Code',
+          date: '28 mars 2025',
+          readTime: '6 min',
         },
       ],
     },
@@ -492,34 +495,37 @@ export const translations = {
     blog: {
       eyebrow: 'Blog',
       title: 'Resources & insights',
-      subtitle: 'Our experience, tutorials and thoughts on No-Code and AI in business.',
+      subtitle: 'Our experience and thoughts on AI, automation and No-Code in business.',
       readTimeSuffix: 'read',
       read: 'Read',
       seeAll: 'All articles',
       items: [
         {
-          title: 'No-Code vs Code: when to choose which for your MVP?',
+          slug: 'integrer-ia-entreprise',
+          title: 'How to integrate AI into your business: a practical guide for leaders',
           excerpt:
-            "You have a product idea and you're wondering if No-Code can really cut it. We break down the decision criteria so you don't get it wrong from the start.",
-          category: 'No-Code',
-          date: 'March 28, 2025',
-          readTime: '6 min',
-        },
-        {
-          title: 'n8n vs Make vs Zapier: an honest comparison for SMEs',
-          excerpt:
-            'Three automation tools, three different philosophies. After using all three on real client projects, here is our unvarnished verdict.',
-          category: 'Automation',
-          date: 'March 15, 2025',
+            "AI is no longer reserved for large corporations. But where do you start, concretely, when running an SME? This practical guide gives you a clear method — no jargon, no massive investment required.",
+          category: 'AI',
+          date: 'April 1, 2025',
           readTime: '8 min',
         },
         {
-          title: 'How to integrate GPT-4 into your Airtable in under an hour',
+          slug: 'automatisation-3-cas-concrets',
+          title: 'Automation: 3 real-world cases that freed up dozens of hours per week',
           excerpt:
-            'Step-by-step tutorial to connect the OpenAI API to your Airtable base and automate content generation, text analysis and categorization.',
-          category: 'AI & GPT',
-          date: 'March 5, 2025',
-          readTime: '10 min',
+            'An accounting firm, a sales agency, an industrial SME. Three problems, three solutions, one outcome: hours recovered and teams finally focused on what matters.',
+          category: 'Automation',
+          date: 'March 15, 2025',
+          readTime: '7 min',
+        },
+        {
+          slug: 'nocode-outils-pme',
+          title: 'No-code: how SMEs build their own tools without a tech team or huge budget',
+          excerpt:
+            'What used to cost €80,000 five years ago now costs €5,000 to €10,000. No-code has changed the rules for SMEs — here is how to take advantage of it.',
+          category: 'No-Code',
+          date: 'March 28, 2025',
+          readTime: '6 min',
         },
       ],
     },
@@ -784,34 +790,37 @@ export const translations = {
     blog: {
       eyebrow: 'Blog',
       title: 'Recursos & insights',
-      subtitle: 'Nossas experiências, tutoriais e reflexões sobre No-Code e IA nos negócios.',
+      subtitle: 'Nossas experiências e reflexões sobre IA, automação e No-Code nos negócios.',
       readTimeSuffix: 'de leitura',
       read: 'Ler',
       seeAll: 'Todos os artigos',
       items: [
         {
-          title: 'No-Code vs Código: quando escolher um ou outro para seu MVP?',
+          slug: 'integrer-ia-entreprise',
+          title: 'Como integrar IA na sua empresa: o guia prático para gestores',
           excerpt:
-            'Você tem uma ideia de produto e se pergunta se o No-Code realmente basta. Desvendamos os critérios de escolha para não errar desde o início.',
-          category: 'No-Code',
-          date: '28 de março de 2025',
-          readTime: '6 min',
-        },
-        {
-          title: 'n8n vs Make vs Zapier: a comparação honesta para PMEs',
-          excerpt:
-            'Três ferramentas de automação, três filosofias diferentes. Depois de usar as três em projetos reais de clientes, aqui está nosso veredicto sem rodeios.',
-          category: 'Automação',
-          date: '15 de março de 2025',
+            'A IA não é mais exclusiva das grandes corporações. Mas por onde começar, concretamente, ao gerir uma PME? Este guia prático oferece um método claro — sem jargão, sem investimento excessivo.',
+          category: 'IA',
+          date: '1 de abril de 2025',
           readTime: '8 min',
         },
         {
-          title: 'Como integrar GPT-4 no seu Airtable em menos de uma hora',
+          slug: 'automatisation-3-cas-concrets',
+          title: 'Automação: 3 casos reais que liberaram dezenas de horas por semana',
           excerpt:
-            'Tutorial passo a passo para conectar a API da OpenAI à sua base no Airtable e automatizar geração de conteúdo, análise de texto e categorização.',
-          category: 'IA & GPT',
-          date: '5 de março de 2025',
-          readTime: '10 min',
+            'Um escritório contábil, uma agência comercial, uma PME industrial. Três problemas, três soluções, um resultado: horas recuperadas e equipes finalmente focadas no que importa.',
+          category: 'Automação',
+          date: '15 de março de 2025',
+          readTime: '7 min',
+        },
+        {
+          slug: 'nocode-outils-pme',
+          title: 'No-code: como as PMEs criam suas ferramentas sem equipe tech nem orçamento enorme',
+          excerpt:
+            'O que custava €80.000 há cinco anos hoje custa €5.000 a €10.000. O no-code mudou as regras do jogo para as PMEs — veja como aproveitar.',
+          category: 'No-Code',
+          date: '28 de março de 2025',
+          readTime: '6 min',
         },
       ],
     },
