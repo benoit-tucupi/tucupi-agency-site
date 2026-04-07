@@ -126,6 +126,14 @@ export const translations = {
             "Direction des équipes tech, design et data pour transformer une startup de fiscalité immobilière : création du segment B2B, automatisation de 90% du processus de déclaration fiscale (−94% de coût unitaire), et x40 sur la capacité de traitement par collaborateur.",
           result: '1 600 € → 600 000 € de CA annuel',
         },
+        {
+          title: "De l'idée aux premiers clients — Alegria",
+          client: 'Alegria — Paris',
+          category: 'Lean Startup & IA',
+          description:
+            "Accompagnement de porteurs de projets tech en phase précoce : clarification stratégique, structuration des hypothèses lean, prototypage no-code, et accélération par l'IA pour aller du concept aux premiers signaux marché en quelques semaines.",
+          result: "De l'idée aux premiers clients en < 4 semaines",
+        },
       ],
     },
     testimonials: {
@@ -395,6 +403,14 @@ export const translations = {
             'Led tech, design and data teams to transform a real estate tax startup: created the B2B segment, automated 90% of the tax filing process (−94% unit cost), and achieved 40x processing capacity per team member.',
           result: '€1,600 → €600,000 ARR',
         },
+        {
+          title: 'From Idea to First Clients — Alegria',
+          client: 'Alegria — Paris',
+          category: 'Lean Startup & AI',
+          description:
+            'Early-stage tech startup coaching: strategic framing, lean hypothesis structuring, no-code prototyping, and AI acceleration to go from concept to first market signals in just a few weeks.',
+          result: 'From idea to first clients in < 4 weeks',
+        },
       ],
     },
     testimonials: {
@@ -663,6 +679,14 @@ export const translations = {
           description:
             'Liderança das equipes de tech, design e dados para transformar uma startup de fiscalidade imobiliária: criação do segmento B2B, automação de 90% do processo de declaração fiscal (−94% no custo unitário) e capacidade de processamento 40x maior por colaborador.',
           result: '€1.600 → €600.000 de faturamento anual',
+        },
+        {
+          title: 'Da Ideia aos Primeiros Clientes — Alegria',
+          client: 'Alegria — Paris',
+          category: 'Lean Startup & IA',
+          description:
+            'Acompanhamento de fundadores de startups tech em fase inicial: clarificação estratégica, estruturação de hipóteses lean, prototipagem no-code e aceleração por IA para ir do conceito aos primeiros sinais de mercado em poucas semanas.',
+          result: 'Da ideia aos primeiros clientes em < 4 semanas',
         },
       ],
     },

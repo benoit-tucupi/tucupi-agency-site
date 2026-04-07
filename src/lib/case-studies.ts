@@ -142,6 +142,72 @@ export const caseStudies: Record<Locale, Record<string, CaseStudy>> = {
       tags: ["Automatisation", "No-code", "IA générative", "Legaltech", "Génération de documents", "Comptabilité"],
     },
 
+    alegria: {
+      slug: "alegria",
+      client: "Alegria",
+      category: "Lean Startup & IA",
+      headline: "De l'idée aux premiers clients — sans lever de fonds, sans coder",
+      intro:
+        "Alegria accompagne des porteurs de projets tech à un stade précoce : idée en cours de définition, absence de traction, incertitude forte sur le marché. L'enjeu : valider rapidement, à faible coût, et créer les conditions d'une première traction réelle — en combinant rigueur méthodologique, no-code et intelligence artificielle.",
+      metrics: [
+        { value: "< 4 sem.", label: "De l'idée aux premiers signaux marché" },
+        { value: "6 phases", label: "Méthodologie structurée de la clarification aux premiers clients" },
+        { value: "0 ligne", label: "De code avant validation marché — 100% no-code" },
+      ],
+      sections: [
+        {
+          title: "Contexte & problème",
+          body: [
+            "La majorité des projets tech échouent non pas par manque d'idées, mais par manque de validation terrain rapide. Les porteurs de projets passent souvent des semaines — parfois des mois — à affiner leur concept sans jamais le confronter au marché.",
+            "Alegria part d'un constat simple : le marché est le meilleur outil de décision. L'objectif est de créer les conditions d'une confrontation rapide, structurée et à faible risque entre l'idée et la réalité.",
+          ],
+        },
+        {
+          title: "L'approche en 6 phases",
+          body: [
+            "Clarification stratégique — Value Proposition Map et Business Model Sketch pour aligner problème, besoins et proposition de valeur avant toute exécution.",
+            "Structuration des hypothèses (Lean Startup) — Identification des hypothèses critiques, priorisation des tests à forte valeur d'apprentissage, définition des scénarios d'expérimentation.",
+            "Prototypage orienté validation — Ateliers de prototypage (landing pages, offres, parcours), construction de MVPs légers via le no-code, mise en situation réelle des utilisateurs.",
+            "Customer-Centric Selling — Confrontation directe au marché : entretiens, outreach, premières offres. Le positionnement s'ajuste en temps réel en fonction des retours.",
+            "Accélération par l'IA — L'IA comme levier d'exécution : génération de propositions de valeur, création de contenus (landing pages, emails, scripts), aide à la structuration des expérimentations.",
+            "Accompagnement technique ciblé — Aide au choix de stack no-code, structuration de MVP, support à la mise en production pour lever les blocages critiques.",
+          ],
+        },
+        {
+          title: "Ce qui fait la différence",
+          body: [
+            "Alegria ne se positionne ni comme un incubateur, ni comme une agence, ni comme un simple coaching. C'est un système d'exécution rapide centré sur la validation marché.",
+            "En combinant rigueur méthodologique, rapidité d'exécution et intelligence augmentée, Alegria transforme une idée incertaine en hypothèses testées, en prototype concret, en retours utilisateurs — et en premiers clients.",
+          ],
+        },
+      ],
+      deliverables: [
+        {
+          group: "Clarification & stratégie",
+          items: [
+            "Value Proposition Map complète",
+            "Business Model Sketch",
+            "Hypothèses critiques priorisées",
+            "Plan d'expérimentation structuré",
+          ],
+        },
+        {
+          group: "Prototypage & validation",
+          items: [
+            "Landing page no-code (Webflow / Framer)",
+            "MVP léger fonctionnel",
+            "Scripts d'entretiens utilisateurs",
+            "Premiers retours marché documentés",
+          ],
+        },
+      ],
+      quote: {
+        text: "Le marché est le meilleur outil de décision. Chaque action doit produire un apprentissage mesurable — pas une conviction de plus.",
+        author: "Principe fondateur · Alegria",
+      },
+      tags: ["Lean Startup", "No-Code", "IA", "Validation marché", "MVP", "Product Management", "Customer Development"],
+    },
+
     qlower: {
       slug: "qlower",
       client: "Qlower",
@@ -313,6 +379,72 @@ export const caseStudies: Record<Locale, Record<string, CaseStudy>> = {
       tags: ["Automation", "No-code", "Generative AI", "Legaltech", "Document generation", "Accounting"],
     },
 
+    alegria: {
+      slug: "alegria",
+      client: "Alegria",
+      category: "Lean Startup & AI",
+      headline: "From idea to first clients — no funding, no coding",
+      intro:
+        "Alegria supports early-stage tech founders: idea still being defined, no traction yet, high market uncertainty. The challenge: validate fast, at low cost, and create the conditions for real initial traction — combining methodological rigour, no-code and artificial intelligence.",
+      metrics: [
+        { value: "< 4 wks", label: "From idea to first market signals" },
+        { value: "6 phases", label: "Structured methodology from framing to first clients" },
+        { value: "0 lines", label: "Of code before market validation — 100% no-code" },
+      ],
+      sections: [
+        {
+          title: "Context & problem",
+          body: [
+            "Most tech projects fail not because of a lack of ideas, but because of a lack of rapid field validation. Founders often spend weeks — sometimes months — refining their concept without ever testing it in the real world.",
+            "Alegria starts from a simple premise: the market is the best decision-making tool. The goal is to create the conditions for a fast, structured, low-risk confrontation between the idea and reality.",
+          ],
+        },
+        {
+          title: "The 6-phase approach",
+          body: [
+            "Strategic clarity — Value Proposition Map and Business Model Sketch to align problem, needs and value proposition before any execution.",
+            "Lean hypothesis structuring — Identifying critical assumptions, prioritizing high-learning tests, defining experimentation scenarios.",
+            "Validation-driven prototyping — Prototyping workshops (landing pages, offers, user journeys), lightweight MVPs built with no-code tools, real user testing.",
+            "Customer-Centric Selling — Direct market confrontation: interviews, outreach, first offers. Positioning is adjusted in real time based on feedback.",
+            "AI acceleration — AI as an execution lever: generating value propositions, creating content (landing pages, emails, scripts), structuring experiments faster.",
+            "Targeted technical support — Help choosing a no-code stack, structuring the MVP, and supporting production launch to remove critical blockers.",
+          ],
+        },
+        {
+          title: "What makes it different",
+          body: [
+            "Alegria is not an incubator, not an agency, and not just coaching. It is a fast execution system centered on market validation.",
+            "By combining methodological rigour, execution speed and augmented intelligence, Alegria transforms an uncertain idea into tested hypotheses, a concrete prototype, real user feedback — and first clients.",
+          ],
+        },
+      ],
+      deliverables: [
+        {
+          group: "Framing & strategy",
+          items: [
+            "Full Value Proposition Map",
+            "Business Model Sketch",
+            "Prioritized critical hypotheses",
+            "Structured experimentation plan",
+          ],
+        },
+        {
+          group: "Prototyping & validation",
+          items: [
+            "No-code landing page (Webflow / Framer)",
+            "Functional lightweight MVP",
+            "User interview scripts",
+            "Documented first market signals",
+          ],
+        },
+      ],
+      quote: {
+        text: "The market is the best decision-making tool. Every action must produce measurable learning — not just another conviction.",
+        author: "Founding principle · Alegria",
+      },
+      tags: ["Lean Startup", "No-Code", "AI", "Market validation", "MVP", "Product Management", "Customer Development"],
+    },
+
     qlower: {
       slug: "qlower",
       client: "Qlower",
@@ -482,6 +614,72 @@ export const caseStudies: Record<Locale, Record<string, CaseStudy>> = {
         author: "Resumo do projeto · LegalPlace / ComptaPlace",
       },
       tags: ["Automação", "No-code", "IA generativa", "Legaltech", "Geração de documentos", "Contabilidade"],
+    },
+
+    alegria: {
+      slug: "alegria",
+      client: "Alegria",
+      category: "Lean Startup & IA",
+      headline: "Da ideia aos primeiros clientes — sem captar investimento, sem programar",
+      intro:
+        "A Alegria apoia fundadores de startups tech em fase inicial: ideia ainda em definição, sem tração, alta incerteza de mercado. O desafio: validar rapidamente, com baixo custo, e criar as condições para uma primeira tração real — combinando rigor metodológico, no-code e inteligência artificial.",
+      metrics: [
+        { value: "< 4 sem.", label: "Da ideia aos primeiros sinais de mercado" },
+        { value: "6 fases", label: "Metodologia estruturada da clarificação aos primeiros clientes" },
+        { value: "0 linhas", label: "De código antes da validação — 100% no-code" },
+      ],
+      sections: [
+        {
+          title: "Contexto & problema",
+          body: [
+            "A maioria dos projetos tech fracassa não por falta de ideias, mas por falta de validação rápida no terreno. Os fundadores passam semanas — às vezes meses — refinando o conceito sem nunca testá-lo no mundo real.",
+            "A Alegria parte de uma premissa simples: o mercado é a melhor ferramenta de decisão. O objetivo é criar as condições para uma confrontação rápida, estruturada e de baixo risco entre a ideia e a realidade.",
+          ],
+        },
+        {
+          title: "A abordagem em 6 fases",
+          body: [
+            "Clarificação estratégica — Value Proposition Map e Business Model Sketch para alinhar problema, necessidades e proposta de valor antes de qualquer execução.",
+            "Estruturação de hipóteses (Lean Startup) — Identificação das hipóteses críticas, priorização dos testes de alto aprendizado, definição dos cenários de experimentação.",
+            "Prototipagem orientada à validação — Workshops de prototipagem (landing pages, ofertas, jornadas), MVPs leves com ferramentas no-code, testes reais com usuários.",
+            "Customer-Centric Selling — Confrontação direta com o mercado: entrevistas, outreach, primeiras ofertas. O posicionamento é ajustado em tempo real com base nos retornos.",
+            "Aceleração por IA — A IA como alavanca de execução: geração de propostas de valor, criação de conteúdo (landing pages, e-mails, scripts), estruturação de experimentos com mais velocidade.",
+            "Suporte técnico pontual — Ajuda na escolha da stack no-code, estruturação do MVP e suporte ao deploy para remover bloqueios críticos.",
+          ],
+        },
+        {
+          title: "O que faz a diferença",
+          body: [
+            "A Alegria não é uma incubadora, nem uma agência, nem apenas coaching. É um sistema de execução rápida centrado na validação de mercado.",
+            "Combinando rigor metodológico, velocidade de execução e inteligência aumentada, a Alegria transforma uma ideia incerta em hipóteses testadas, um protótipo concreto, retornos reais de usuários — e primeiros clientes.",
+          ],
+        },
+      ],
+      deliverables: [
+        {
+          group: "Clarificação & estratégia",
+          items: [
+            "Value Proposition Map completo",
+            "Business Model Sketch",
+            "Hipóteses críticas priorizadas",
+            "Plano de experimentação estruturado",
+          ],
+        },
+        {
+          group: "Prototipagem & validação",
+          items: [
+            "Landing page no-code (Webflow / Framer)",
+            "MVP leve funcional",
+            "Scripts de entrevistas com usuários",
+            "Primeiros sinais de mercado documentados",
+          ],
+        },
+      ],
+      quote: {
+        text: "O mercado é a melhor ferramenta de decisão. Cada ação deve produzir um aprendizado mensurável — não mais uma convicção.",
+        author: "Princípio fundador · Alegria",
+      },
+      tags: ["Lean Startup", "No-Code", "IA", "Validação de mercado", "MVP", "Product Management", "Customer Development"],
     },
 
     qlower: {
